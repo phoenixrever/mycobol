@@ -1,0 +1,16 @@
+# COBOL 编译生成的文件
+*.int
+*.gnt
+*.exe
+*.lst
+*.o
+*.obj
+*.so
+*.dll
+*.mod
+*.out
+*.bin
+*.log
+
+# 不上传 app 文件夹
+app/
