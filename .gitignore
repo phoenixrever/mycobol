@@ -12,5 +12,6 @@
 *.bin
 *.log
 
-# 不上传 app 文件夹
+# 不上传 任何路径下的 app bin文件夹
 app/
+bin/
