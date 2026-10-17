@@ -37,7 +37,7 @@
       
       *01 VAR-A   PIC A(5).    * 只能是5个字母字符
       *01 VAR-X   PIC X(5).    * 5个任意字符（数字、字母、符号均可）
-      *01 VAR-N   PIC 9(5).    * 5位数字，如 12345
+      *01 VAR-N   PIC 9(5).    * 5位数字，如 12345 或者 99999
       *01 VAR-S   PIC S9(5).   * 带符号的5位数字，如 -12345
       *01 VAR-D   PIC 9(3)V99. * 数值，3位整数和2位小数，比如 123.45
       *===============================================
@@ -46,8 +46,10 @@
            05 FIRST-NAME PIC X(10) VALUE "チヨウ".
            05 LAST-NAME  PIC X(10) VALUE "殿".
        01 HELLO-MESSAGE PIC X(50) VALUE "Hello World! チヨウ殿".
+       0100-START-HERE.
        PROCEDURE DIVISION.
-      *PERFORM 0100-START-HERE. 不写0100-START-HERE 会有警告，顺序执行没关系
+      *PERFORM 0100-START-HERE. 不写PERFORM 0100-START-HERE 会有警告，
+      *- 顺序执行没关系不用写0100-START-HERE.
       *0100-START-HERE.
            DISPLAY NAME.
            DISPLAY HELLO-MESSAGE.
