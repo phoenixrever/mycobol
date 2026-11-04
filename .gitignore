@@ -12,6 +12,9 @@
 *.bin
 *.log
 
+
 # 不上传 任何路径下的 app bin文件夹
 app/
 bin/
+# 不上传 .vscode 文件夹
+.vscode/
