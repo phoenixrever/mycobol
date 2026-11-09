@@ -1,10 +1,10 @@
+
+                                                                                                    11/09/26
 ID      SALESPERSON NAME                        REGION    YEARLY SALES  GENDER     ERROR MESSAGE
 -----   ----------          ----------          --------  ----------               -----------------
-                                                                                                    11/08/26
+
 AB123   DOE                 JANE                EAST      125000           F       EMPLOYEE ID IS NOT NUMERIC
 00003   DOE                 JANE                EAST      12A000           F       SALE AMOUNT IS NOT NUMERIC
 00004                       JANE                EAST      125000           F       LAST NAME IS MISSING
 00005   DOE                                     EAST      125000           F       FIRST NAME IS MISSING
 00006   D0E                 JANE                EAST      125000           F       INVALID NAME
-00007   DOE                 JANE                BAD       125000           F       INVALID REGION
-00008   DOE                 JANE                WEST      125000           X       INVALID GENDER SHOULD BE M, F OR U
